@@ -1,4 +1,4 @@
-# 🖥️ Proyecto: Instalación de WordPress en Ubuntu Server
+ # 🖥️ Proyecto: Instalación de WordPress en Ubuntu Server
 
 ## 📖 Descripción
 Este proyecto documenta la instalación y configuración de **WordPress en una máquina virtual con Ubuntu Server**.  
@@ -97,24 +97,18 @@ Se configura el archivo `wp-config.php` para que WordPress pueda conectarse a la
 ```bash
 sudo -u www-data cp /srv/www/wordpress/wp-config-sample.php /srv/www/wordpress/wp-config.php
 ```
-📸 Captura:  
-![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
 
 ### Establecer credenciales de la base de datos:
 📸 Captura:  
-![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
+<img width="1266" height="470" alt="7" src="https://github.com/user-attachments/assets/8f52ff9a-7405-4d7a-b6d6-8a268ad39d02" />
 
 ### Editar claves de seguridad:
 ```bash
 sudo -u www-data nano /srv/www/wordpress/wp-config.php
 ```
-### Captura del contenido del archivo que hay que eliminar abierto en nano: 
 📸 Captura:  
-![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
 
+<img width="1246" height="921" alt="8" src="https://github.com/user-attachments/assets/92ca3a61-bc01-4a30-bc25-83b3359c9385" />
 -Lo eliminamos y lo sus tituimos por el contenido generado desde: 🔗 https://api.wordpress.org/secret-key/1.1/salt/
-📸 Captura:  
-![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
-
 
 
