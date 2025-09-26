@@ -25,13 +25,15 @@ Comando: ```sudo apt install ubuntu-desktop -y```
 ### Instalación de los paquetes necesarios
 Comandos ejecutados:  
 ```
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y<img width="1297" height="1199" alt="1" src="https://github.com/user-attachments/assets/c810c28e-9c8e-4057-bb1c-cd2ba44f48fe" />
+
 ````
 
 ### Instalación de dependencias necesarias
 Para preparar el entorno de WordPress, se instalan Apache, MySQL, PHP y varias extensiones recomendadas.<br>
-📸 Captura:  
-![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
+📸 Captura:
+
+<img width="1297" height="1199" alt="1" src="https://github.com/user-attachments/assets/49c76e14-8e05-4b60-b02c-6745b0dd61ff" />
 
 ### 📦 Instalación de WordPress
 
@@ -43,6 +45,10 @@ sudo mkdir -p /srv/www
 sudo chown www-data: /srv/www
 curl https://wordpress.org/latest.tar.gz | sudo -u www-data tar zx -C /srv/www
 ```
+
+<img width="1392" height="515" alt="2" src="https://github.com/user-attachments/assets/1a28f1f4-26db-427a-87b3-ec6b84a5617b" />
+
+
 ### ⚙️ Configuración de Apache para WordPress
 
 Se crea un sitio en Apache para alojar WordPress.
