@@ -59,13 +59,13 @@ Se crea un sitio en Apache para alojar WordPress.
 sudo nano /etc/apache2/sites-available/wordpress.conf
 ```
 📸 Captura del contenido del archivo:  
-![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
+
+<img width="1327" height="941" alt="3" src="https://github.com/user-attachments/assets/9c168cfb-e622-4c79-8c2c-43fcc4a29514" />
 
 
 ### Activar configuración
 📸 Captura:  
 ![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
-
 
 ### 🚫 Desactivar la página por defecto de Apache
 Apache muestra una página por defecto (“It works!”) si no se configura otro sitio. Para evitar conflictos con WordPress, se desactiva con:
@@ -73,6 +73,10 @@ Apache muestra una página por defecto (“It works!”) si no se configura otro
 sudo a2dissite 000-default
 sudo service apache2 reload
 ```
+
+<img width="1253" height="878" alt="4" src="https://github.com/user-attachments/assets/baf3f0e2-9abc-493f-8e3a-91a9db9b7798" />
+
+(Como se ve en la captura para quitar la pagina default primero hay que reinicuar apache, sino nos da el fallo que me aparecía a mi)
 
 ### 🗄️ Configuración de la base de datos MySQL
 Se crea la base de datos y el usuario necesarios para WordPress.
