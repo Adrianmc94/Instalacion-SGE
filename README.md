@@ -84,13 +84,9 @@ Se crea la base de datos y el usuario necesarios para WordPress.
 ```bash
 sudo mysql -u root
 ```
-📸 Captura:  
-![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
-
-
 ### 🧱 Crear base de datos y usuario
 📸 Captura:  
-![Instalación Ubuntu](screenshots/01-instalacion-ubuntu.png)
+<img width="1320" height="989" alt="6" src="https://github.com/user-attachments/assets/d7219965-5bec-4d9d-a9dc-9cebf2b51759" />
 
 ### 🔧 Configurar WordPress para conectar con la base de datos
 
