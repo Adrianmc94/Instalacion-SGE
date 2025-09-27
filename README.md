@@ -95,13 +95,39 @@ sudo -u www-data nano /srv/www/wordpress/wp-config.php
 <img width="1246" height="921" alt="8" src="https://github.com/user-attachments/assets/92ca3a61-bc01-4a30-bc25-83b3359c9385" />
 -Lo eliminamos y lo sus tituimos por el contenido generado desde: 🔗 https://api.wordpress.org/secret-key/1.1/salt/
 
-### CONFIGURACION DE WORDPRESS:
+### ⚙️ Configuración de WordPress
 
-<img width="1343" height="995" alt="YA" src="https://github.com/user-attachments/assets/3a8f325c-e026-4428-9d16-7d9ea48ee3ce" />
+📸 Interfaz principal después de iniciar sesión (ajustes de usuario, actividad, plugins, apariencia, etc.):
+
+![Interfaz WordPress](https://github.com/user-attachments/assets/3a8f325c-e026-4428-9d16-7d9ea48ee3ce)
+
+Aquí vemos la interfaz que nos aparece justo después de loguearnos:
+
+![Dashboard WordPress](https://github.com/user-attachments/assets/ae23fe0c-607e-450b-bbfc-b4cdb8d5dca5)
+
+---
+
+### 🎨 Modificación de apariencia y nuevos plugins
+
+**Temas:**  
+Para cambiar el tema:  
+`Apariencia → Temas → Añadir tema`, seleccionamos el que más nos guste, clic en **Instalar** y luego **Activar**.  
+En este caso se instaló el tema **Extendable**, hecho por Extendify.  
+
+📸 Captura:  
+![Tema Extendable](https://github.com/user-attachments/assets/d5a7d549-0f5f-43ed-9652-5993e77f19d5)
+
+**Plugins:**  
+Para instalar plugins:  
+`Plugins → Añadir plugin`, se sigue el mismo proceso que con los temas.  
+En este caso se instaló el plugin **MonsterInsights**.  
+
+📸 Captura:  
+![Plugin MonsterInsights](https://github.com/user-attachments/assets/9b0f2890-7acb-43e9-ae4f-f2b4cc0458b7)
 
 
-Aqui vemos la intefaz que nos sale justo despues de loguearnos (ajustes de usuario, actibidad, plugings, apariencia...):
 
 
-<img width="1887" height="1245" alt="ESO" src="https://github.com/user-attachments/assets/ae23fe0c-607e-450b-bbfc-b4cdb8d5dca5" />
+
+
 
